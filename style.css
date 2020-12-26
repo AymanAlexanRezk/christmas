@@ -72,12 +72,15 @@ body {
   margin: 0;
 }
 
+/*  .info-slide:active */
 /* hover effects */
-.gift:hover .surprise {
+.gift:hover .surprise,
+gift:active .surprise {
   top: -100px;
   transform: rotateZ(10deg);
   left: 10px;
 }
-.gift:hover .christmas {
+.gift:hover .christmas,
+gift:active .surprise {
   top: -80px;
 }
